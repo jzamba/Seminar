@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="The best website ever" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Jere Zambarlin" />
+    <title>Seminar</title>
+
+    <!-- Povezivanje sa željenim Google Font-om -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Mali&display=swap"
+    />
+
+    <!-- Za korištenje FontAwesome ikona -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Povezivanje vanjskog CSS dokumenta s HTML-om -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Header/Zaglavlje: Logo, glavni naslov i navigacija-->
+    <header>
+      <img src="slike/logo.png" alt="logo" width="150">
+      <nav>
+        <a class="link" href="#">Početna</a>
+        <a class="link" href="#">Tablica</a>
+        <a class="link" href="#">Klubovi</a>
+      </nav>
+      
+    </header>
+
+    <main>
+      <p>Prva hrvatska nogometna liga (iz sponzorskih razloga znana i kao Hrvatski telekom Prva liga) uključuje 10 klubova iz Republike Hrvatske. Igra se 36 utakmica četverokružnim sustavom, dakle, svatko sa svakim četiri puta. Na kraju sezone, posljednje plasirana momčad ispada u Drugu ligu, dok pretposljednji ide u doigravanje s drugim klubom iz 2.HNL, a u prvu ligu ulazi izravno prvak iz Druge lige.</p>
+        
+
+      <section id="poredak">
+        <h2>Tablica 1. HNL nakon 22 kola</h2> <br><br>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th><b>Momčad</b></th>
+              <th><b>GP</b></th>
+              <th><b>W</b></th>
+              <th><b>D</b></th>
+              <th><b>L</b></th>
+              <th><b>GD</b></th>
+              <th><b>P</b></th>
+            </tr>
+
+          </thead>
+        
+          <tbody>
+            <tr>
+              <th>1.</th>
+              <th>Dinamo</th>
+              <th>22</th>
+              <th>17</th>
+              <th>2</th>
+              <th>3</th>
+              <th>+31</th>
+              <th>53</th>
+            </tr>
+            <tr>
+              <th>2.</th>
+              <th>Hajduk</th>
+              <th>22</th>
+              <th>12</th>
+              <th>5</th>
+              <th>5</th>
+              <th>+16</th>
+              <th>41</th>
+            <tr>
+              <th>3.</th>
+              <th>Osijek</th>
+              <th>22</th>
+              <th>10</th>
+              <th>8</th>
+              <th>4</th>
+              <th>+13</th>
+              <th>38</th>
+            </tr>
+            <tr>
+              <th>4.</th>
+              <th>Rijeka</th>
+              <th>22</th>
+              <th>11</th>
+              <th>5</th>
+              <th>6</th>
+              <th>+9</th>
+              <th>38</th>
+            </tr>
+            <tr>
+              <th>5.</th>
+              <th>Lokomotiva</th>
+              <th>22</th>
+              <th>10</th>
+              <th>4</th>
+              <th>8</th>
+              <th>+4</th>
+              <th>37</th>
+            </tr>
+            <tr>
+              <th>6.</th>
+              <th>Gorica</th>
+              <th>22</th>
+              <th>8</th>
+              <th>7</th>
+              <th>7</th>
+              <th>-3</th>
+              <th>31</th>
+            </tr>
+            <tr>
+              <th>7.</th>
+              <th>Slaven Belupo</th>
+              <th>22</th>
+              <th>6</th>
+              <th>3</th>
+              <th>13</th>
+              <th>-19</th>
+              <th>21</th>
+            </tr>
+            <tr>
+              <th>8.</th>
+              <th>Inter Zaprešić</th>
+              <th>22</th>
+              <th>3</th>
+              <th>8</th>
+              <th>11</th>
+              <th>-15</th>
+              <th>17</th>
+            </tr>
+            <tr>
+              <th>9.</th>
+              <th>Istra</th>
+              <th>22</th>
+              <th>3</th>
+              <th>6</th>
+              <th>13</th>
+              <th>-17</th>
+              <th>15</th>
+            </tr>
+            <tr>
+              <th>10.</th>
+              <th>Varaždin</th>
+              <th>22</th>
+              <th>3</th>
+              <th>6</th>
+              <th>13</th>
+              <th>-19</th>
+              <th>15</th>
+            </tr>
+            
+          </tbody>
+        </table>
+
+        <p id="rezultati">
+          <b>Rezultati 22. kola: </b> <br>
+          Lokomotiva - Istra 2:0 <br> 
+          Inter Zaprešić - Varaždin 1:2<br> 
+          Slaven Belupo - Hajduk 2:1<br> 
+          Osijek - Dinamo 1:0<br> 
+          Gorica - Rijeka 0:0
+          </p>
+    </main>
+
+    <!-- Footer/Podnožje: Linkovi društvenih mreža i copyright -->
+    <footer>
+     
+        
+       <p id="ftekst">&copy; <strong>  Jere Zambarlin </strong></p>
+      
+      
+    </footer>
+
+    <!-- Uključivanje vanjskih JavaScript skripti -->
+    <script src="./js/script.js"></script>
+  
+  </body>
+</html>
